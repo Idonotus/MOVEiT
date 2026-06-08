@@ -7,6 +7,6 @@ This add-on injects JavaScript into mozilla.org web pages.
 This exchanges chess.com piece assets with goobers!
 
 ## Credits
-- Scripts: Idontuse
+- JS HELL: Idontuse
 - Pieces: AlMatter
 - MAKiT: MAKiT
