@@ -1,0 +1,32 @@
+{
+
+  "description": "Turns all chess.com pieces into goobers",
+  "manifest_version": 3,
+  "name": "MOVEiT",
+  "version": "1.0",
+  "homepage_url": "https://makit.wtf",
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "MOVEiT@makit.wtf",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "web_accessible_resources": [{
+    "resources": ["pieces/*.png"],
+    "matches": ["*://*/*"]
+  }],
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*.chess.com/*"],
+      "js": ["MOVEiT.js"]
+    }
+  ]
+
+}
