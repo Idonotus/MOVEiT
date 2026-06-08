@@ -3,7 +3,7 @@
   "description": "Turns all chess.com pieces into goobers",
   "manifest_version": 3,
   "name": "MOVEiT",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/Idonotus/MOVEiT",
   "icons": {
     "128": "icon.png"
