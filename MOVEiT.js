@@ -63,6 +63,5 @@ const observer = new MutationObserver(callback);
 
 // Start observing the target node for configured mutations
 observer.observe(targetNode, config);
-document.body.style.border = "5px solid blue";
 
 reloadBoard(document.getElementsByTagName("wc-chess-board")[0]);
