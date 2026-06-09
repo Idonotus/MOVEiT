@@ -3,10 +3,11 @@
   "description": "Turns all chess.com pieces into goobers",
   "manifest_version": 3,
   "name": "MOVEiT",
-  "version": "1.1",
+  "version": "1.2",
   "homepage_url": "https://github.com/Idonotus/MOVEiT",
   "icons": {
-    "128": "icon.png"
+    "128": "icons/icon-128.png",
+    "512": "icons/icon-512.png"
   },
 
   "browser_specific_settings": {
@@ -25,7 +26,11 @@
   "content_scripts": [
     {
       "matches": ["*://*.chess.com/*"],
-      "js": ["MOVEiT.js"]
+      "js": ["MOVEiT-chess.js"]
+    },
+    {
+      "matches": ["*://*.lichess.org/*"],
+      "js": ["MOVEiT-lichess.js"]
     }
   ]
 

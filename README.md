@@ -1,6 +1,6 @@
 # MOVEiT
 
-This exchanges chess.com piece assets with goobers!
+This exchanges chess piece assets with goobers for [chess.com] and [lichess.org]!
 
 ## Credits
 - JS HELL: Idontuse
